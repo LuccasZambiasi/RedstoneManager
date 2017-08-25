@@ -1,0 +1,63 @@
+# Se "Desabilitar" estiver TRUE a redstone não poderá ser usada. #
+# Se "TntAtiva" estiver FALSE a tnt não poderá ser usada. # 
+# Se MsgGlobalON estiver TRUE, irá mandar a mensagem GLOBALREDSTONEON
+# Se MsgGlobalOFF estiver TRUE, irá mandar a mensagem GLOBALREDSTONEOFF
+Redstone:
+   Desabilitar: true
+   MsgGlobalON: true
+   MsgGlobalOFF: true
+
+Variaveis:  # Aqui se encontra as váriaveis.
+   ActionBar: true
+   
+Mensagens: # Aqui são as mensagens gerais. # 
+   NaoPode: '&cVocê não pode fazer isto!'
+      
+GlobalRedstoneON: # Mensagem global (Redstone ON)
+ - ''
+ - '&7{jogador} ativou o uso da &4&lREDSTONE&7.'
+ - ''
+
+GlobalRedstoneOFF: # Mensagem global (Redstone OFF)
+ - ''
+ - '&7O uso dá &4&lREDSTONE &7foi desativada&7.'
+ - ''
+ 
+RedstoneMSG: # Mensagens de Redstone.   # 
+   RedstoneOFF: '&cO uso de Redstone está desabilitada.'
+   Desabilitou: '&aVocê desabilitou o uso da redstone!'
+   Habilitou: '&aVocê habilitou o uso da redstone!'
+
+# Coloque aqui os blocos que quando a redstone estiver desabilitada não poderá usar. # 
+Blocos_Redstone:
+- WOOD_BUTTON
+- REDSTONE_WIRE
+- REDSTONE_TORCH_ON
+
+# Se MsgGlobalON estiver TRUE, irá mandar a mensagem GLOBALTnTON
+# Se MsgGlobalOFF estiver TRUE, irá mandar a mensagem GLOBALTnTOFF
+TNT:
+   Desativada: false
+   MsgGlobalON: true
+   MsgGlobalOFF: true
+   
+# Mensagens relacionadas ao uso da TNT.      
+TNTMSG:
+   TntOFF: '&cO uso da TNT está desabilitado.'
+   Desabilitou: '&aVocê desabilitou o uso da TNT!'
+   Habilitou: '&aVocê habilitou o uso da TNT!' 
+   
+# Mensagens globais da TNT        
+GlobalTnTON:
+ - ''
+ - '&7{jogador} ativou o uso da &4&lTNT&7.'
+ - ''
+
+GlobalTnTOFF:
+ - ''
+ - '&7O uso dá &4&lTNT &7foi desativada&7.'
+ - ''
+ 
+Sintaxes: # Aqui, voce encontra as sintaxes. # 
+   Redstone: '&7Use: /redstone <on/off>'
+   TnT: '&7Use: /tnt <on/off>'

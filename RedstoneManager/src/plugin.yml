@@ -1,0 +1,7 @@
+main: br.com.battlehost.redstonemanager.Main
+version: 1.0
+authors: [Lippz]
+name: BattleRedstone
+commands: 
+  redstone:
+  tnt:
